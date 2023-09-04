@@ -21,6 +21,7 @@ public class Greeter {
     String country = args[1];
     String name = args[2];
     int len = args.length();
+    int len1 = len++;
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
   }
